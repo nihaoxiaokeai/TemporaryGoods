@@ -1,0 +1,37 @@
+:global{
+    .order-list{
+        // 底部按钮
+        .bottom-button {
+            background-color: #fff;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .am-button-ghost::before {
+                border-radius: 50px;
+                border: 1px solid #979797;
+            }
+            .am-button-ghost.am-button-disabled::before {
+                border-radius: 50px;
+                border: 1px solid #cccccc;
+            }
+            .save {
+                width: 50%;
+                margin-left: 12px;
+                margin-right: 5px;
+                color: #323232;
+                font-size: 14px;
+            }
+            .save-disabled {
+                color: #cccccc;
+            }
+            .order {
+                width: 50%;
+                border-radius: 22px;
+                margin-left: 12px;
+                margin-right: 5px;
+                font-size: 14px;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.wrap {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 6px 0 0 6px;
+  padding: 6px 0 6px 6px;
+  .title {
+    min-height: 30px;
+    width: 100%;
+    .tr {
+      min-height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      color: 323232;
+      width: 100%;
+      display: inline-block;
+      border-bottom: 1px solid #f4f4f4;
+      .td1 {
+        width: 40px;
+        display: inline-block;
+      }
+      .td2 {
+        width: 40px;
+        display: inline-block;
+      }
+      .td3 {
+        width: 65px;
+        display: inline-block;
+      }
+      .td4 {
+        width: 75px;
+        display: inline-block;
+      }
+    }
+  }
+  .content {
+    .borderBottom:not(:last-child) {
+      border-bottom: 1px solid #f4f4f4;
+    }
+    .tr {
+      height: 60px;
+      // line-height: 60px;
+      font-size: 12px;
+      color: #323232;
+      width: 100%;
+      display: inline-block;
+      word-wrap: break-word;
+      word-break: normal;
+      vertical-align: middle;
+
+      .td1 {
+        width: 40px;
+        line-height: 60px;
+        display: inline-block;
+      }
+      .td2 {
+        width: 40px;
+        display: inline-block;
+      }
+      .td3 {
+        width: 65px;
+        display: inline-block;
+      }
+      .td4 {
+        width: 75px;
+        display: inline-block;
+        .font {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2; //控制行数
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+.flexd {
+  position: absolute;
+}

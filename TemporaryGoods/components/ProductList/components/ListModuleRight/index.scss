@@ -1,0 +1,106 @@
+.wrap {
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 0px 6px 6px 0px;
+  padding: 6px 0 6px 0px;
+  margin-right: 10px;
+  .title {
+    min-height: 30px;
+    width: 100%;
+    .tr {
+      min-height: 30px;
+      line-height: 30px;
+      font-size: 12px;
+      color: 323232;
+      width: 100%;
+      display: inline-block;
+      word-wrap: break-word;
+      word-break: normal;
+      border-bottom: 1px solid #f4f4f4;
+      .td4 {
+        width: 90px;
+        display: inline-block;
+      }
+      .td5 {
+        width: 65px;
+        display: inline-block;
+      }
+      .td6 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td7 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td8 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td9 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td10 {
+        width: 100px;
+        display: inline-block;
+      }
+    }
+  }
+  .content {
+    .borderBottom:not(:last-child) {
+      border-bottom: 1px solid #f4f4f4;
+    }
+    .tr {
+      height: 60px;
+      line-height: 60px;
+      font-size: 12px;
+      color: 323232;
+      width: 100%;
+      display: inline-block;
+      .td4 {
+        width: 90px;
+        display: inline-block;
+      }
+      .td5 {
+        width: 65px;
+        display: inline-block;
+      }
+      .td6 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td7 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td8 {
+        width: 120px;
+        display: inline-block;
+        .textInput {
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+      .td9 {
+        width: 120px;
+        display: inline-block;
+      }
+      .td10 {
+        width: 100px;
+        display: inline-block;
+      }
+    }
+  }
+}
+.flexd {
+  position: absolute;
+}
+:global {
+  .am-list-body::before {
+    height: 0px !important;
+  }
+  .am-list-body::after {
+    height: 0px !important;
+  }
+}
